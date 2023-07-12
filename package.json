@@ -1,0 +1,23 @@
+{
+  "name": "svelte-workspace-example",
+  "version": "0.0.1",
+  "description": "Example to show workspaces with svelte kit",
+  "private": true,
+  "engines": {
+    "node": ">= 16"
+  },
+  "workspaces": {
+    "packages": [
+      "app/*",
+      "package/*"
+    ]
+  },
+  "scripts": {},
+  "devDependencies": {
+    "prettier": "^3.0.0"
+  },
+  "prettier": {
+    "singleQuote": true
+  },
+  "dependencies": {}
+}
